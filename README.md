@@ -43,7 +43,7 @@ _Below are the instructions to run the complete project._
    ```sh
    npm install
    ```
-4. Create a .env file at the root of your project ( .gitignore file line).
+4. Create a .env.development file inside the config folder of the project ( .gitignore file line).
 
 5. Add the `.env` variables attached in the technical documentation
    ```
@@ -52,13 +52,29 @@ _Below are the instructions to run the complete project._
    JWT_SECRET_KEY=" "
    JWT_ACCESS_TOKEN_EXPIRATION_TIME=" "
    FRONTEND_URL=" "
-=""
+
    ```
 
 6. Run the command below to start the project
    ```sh
      npm run dev
     ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+<!-- features -->
+## features
+
+- [x] User Onboarding  -Login, Registration
+- [x] User Profile Page
+- [x] Logout Functionality
+    
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
